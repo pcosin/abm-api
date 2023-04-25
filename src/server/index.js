@@ -45,6 +45,9 @@ mongoose.connect('mongodb+srv://ppromedio:ppromedio123@cluster0.cx37b5n.mongodb.
 // * security config
 //  server.use(helmet());
 //  server.use(cors());
+ server.use(cors({
+ origin: 'https://www.desarrollosmonigote.com/abm'
+ }));
 
 
 
