@@ -6,7 +6,7 @@ import bodyParser from 'body-parser';
 import swagger from 'swagger-ui-express';
 
 // security
-// import cors from 'cors';
+import cors from 'cors';
 // import helmet from 'helmet';
 
 // Root routes
