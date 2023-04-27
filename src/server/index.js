@@ -46,8 +46,8 @@ mongoose.connect('mongodb+srv://ppromedio:ppromedio123@cluster0.cx37b5n.mongodb.
 //  server.use(helmet());
 //  server.use(cors());
  server.use(cors({
- origin: 'https://www.desarrollosmonigote.com'
- }));
+  origin: ['https://www.desarrollosmonigote.com', 'https://desarrollosmonigote.com/abm/pages/horarios.html']
+}));
 
 
 
